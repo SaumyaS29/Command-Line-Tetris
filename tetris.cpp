@@ -64,13 +64,12 @@ class StateMemo
 public:
 	void setStartPoint(tuple& pt) {
 		startpt = { pt.x,pt.y };
-		//disvec.push_back({ 0,0 });
-
 	}
+	
 	void setDispVecs(std::vector<tuple>& dispvec) {
-		//std::copy(dispvec.begin(), dispvec.end(), disvec.begin());
 		disvec = dispvec;
 	}
+	
 	void setRotationState(int rtstate) {
 		rotstate = rtstate;
 	}
